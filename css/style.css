@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    padding: 0;
+    margin: 0;
+}
+
+.pojemnik1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pojemnik2 {
+    padding: 1px;
+}
+.karta {
+    background-color: hsl(0, 0%, 100%);
+    width: 200px;
+    height: 320px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.karta img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.karta .pojemnik2 .karta-tytul {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.karta .pojemnik2 .karta-opis a {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: hsl(220, 15%, 55%);
+    padding-top: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Sekcja responsywan */
+
+@media (max-width:375px) {
+    .karta {
+        width: 300px;
+        height: 500px;
+    }
+    .karta img {
+        width: 300px;
+        height: 300px;
+    }
+    .karta .pojemnik2 .karta-tytul {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    .karta .pojemnik2 .karta-opis {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+}
+@media (max-width:1440px) {
+    .karta {
+        width: 300px;
+        height: 500px;
+    }
+    .karta img {
+        width: 300px;
+        height: 300px;
+    }
+    .karta .pojemnik2 .karta-tytul {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    .karta .pojemnik2 .karta-opis {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+}
